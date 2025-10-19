@@ -1,1 +1,13 @@
-data/*.csv
+data/
+*.csv
+*.pkl
+*.png
+*.jpg
+*.jpeg
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.vscode/
+.idea/

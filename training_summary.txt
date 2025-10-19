@@ -1,0 +1,16 @@
+KAGGLE FRAUD DETECTION MODEL - TRAINING SUMMARY
+=======================================================
+
+Dataset Size: 284,807 transactions
+Fraud Rate: 0.1727%
+Features: 30
+
+MODEL PERFORMANCE:
+  Precision: 0.895
+  Recall: 0.786
+  F1-Score: 0.837
+  ROC-AUC: 0.949
+
+NEXT STEPS:
+1. Run Streamlit dashboard: streamlit run dashboard.py
+2. Model file ready for deployment: fraud_model.pkl
