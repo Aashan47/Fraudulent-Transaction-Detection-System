@@ -1,15 +1,15 @@
-# 🛡️ Professional Fraud Detection System
+# Professional Fraud Detection System
 
 A production-ready fraud detection system using **real Kaggle Credit Card fraud data** with **284,807 actual transactions**. Features machine learning model training and professional web demo interface.
 
-## 🎥 **Live Demo Video**
+## **Live Demo Video**
 **[Watch the Demo on YouTube](https://youtu.be/JkbwKJJ0cQY)**
 
 See the system in action with real-time fraud detection analysis and professional visualizations.
 
 ---
 
-## 🚀 **Quick Start (3 Steps)**
+## **Quick Start (3 Steps)**
 
 ### **Step 1: Install Dependencies**
 ```bash
@@ -34,7 +34,7 @@ ssh -L 5001:localhost:5000 username@server_ip
 
 ---
 
-## 📊 **Real Kaggle Dataset**
+## **Real Kaggle Dataset**
 
 ### **Authentic Financial Data**
 - **284,807 real credit card transactions** from European cardholders
@@ -58,7 +58,7 @@ ssh -L 5001:localhost:5000 username@server_ip
 
 ---
 
-## 🤖 **Model Performance**
+## **Model Performance**
 
 ### **Training Results on Real Data**
 - **Precision**: 89.5% (minimizes false fraud alerts)
@@ -81,7 +81,7 @@ ssh -L 5001:localhost:5000 username@server_ip
 
 ---
 
-## 🌐 **Professional Demo Interface**
+## **Professional Demo Interface**
 
 ### **Features**
 - **Real-time fraud detection** with visual risk indicators
@@ -106,17 +106,16 @@ ssh -L 5001:localhost:5000 username@server_ip
 
 ---
 
-## 📁 **Project Structure**
+## **Project Structure**
 
 ```
-📂 Fraud-Detection-System/
-├── 🤖 train.py              # Kaggle dataset training script
-├── 🌐 demo.py               # Professional web demo interface
-├── 📊 dashboard.py          # Streamlit alternative (optional)
-├── 📄 requirements.txt      # Python dependencies
-├── 📋 README.md             # This documentation
+Fraud-Detection-System/
+├── train.py              # Kaggle dataset training script
+├── demo.py               # Professional web demo interface
+├── requirements.txt      # Python dependencies
+├── README.md             # This documentation
 │
-├── 📄 Generated Files:
+├── Generated Files:
 │   ├── fraud_model.pkl           # Trained ML model + preprocessing
 │   ├── training_summary.txt      # Training performance report
 │   ├── model_validation_results.png # Performance visualizations
@@ -125,7 +124,7 @@ ssh -L 5001:localhost:5000 username@server_ip
 
 ---
 
-## 🔧 **Technical Implementation**
+## **Technical Implementation**
 
 ### **Model Training Process**
 1. **Dataset Download**: Automatic Kaggle dataset retrieval via `kagglehub`
@@ -152,31 +151,8 @@ def detect_fraud(transaction_data):
     return fraud_probability
 ```
 
----
 
-## 📈 **Business Value**
-
-### **Real-World Applications**
-- **Financial Institutions**: Credit card fraud prevention
-- **E-commerce Platforms**: Transaction monitoring
-- **Payment Processors**: Real-time risk assessment
-- **Fintech Companies**: Customer protection systems
-
-### **Economic Impact**
-- **Fraud Detection Rate**: 78.6% of fraudulent transactions caught
-- **False Positive Rate**: Only 10.5% legitimate transactions flagged
-- **Cost Savings**: Significant reduction in fraud losses
-- **Customer Trust**: Improved security without transaction friction
-
-### **Regulatory Compliance**
-- **PCI DSS**: Supports payment card industry standards
-- **GDPR**: Privacy-compliant feature anonymization
-- **Basel III**: Risk management framework compatibility
-- **AML**: Anti-money laundering detection capabilities
-
----
-
-## 🛠️ **Advanced Usage**
+## **Advanced Usage**
 
 ### **Custom Training Parameters**
 ```bash
@@ -211,7 +187,7 @@ def score_transaction_batch(transactions_df):
 
 ---
 
-## 🔒 **Security & Privacy**
+## **Security & Privacy**
 
 ### **Data Protection**
 - **No raw financial data** stored in repository
@@ -227,7 +203,7 @@ def score_transaction_batch(transactions_df):
 
 ---
 
-## 📚 **Research & References**
+## **Research & References**
 
 ### **Academic Foundation**
 - **Original Research**: ULB Machine Learning Group
@@ -243,21 +219,21 @@ def score_transaction_batch(transactions_df):
 
 ---
 
-## 🎯 **Use Cases**
+## **Use Cases**
 
-### **📋 Business Demonstrations**
+### ** Business Demonstrations**
 - Executive presentations with live fraud detection
 - Technical demos for stakeholders
 - Product showcases for financial services
 - Educational workshops on ML in finance
 
-### **🔬 Research & Development**
+### ** Research & Development**
 - Fraud detection algorithm research
 - Model performance benchmarking
 - Feature engineering experiments
 - Risk scoring optimization
 
-### **🏭 Production Integration**
+### ** Production Integration**
 - Real-time fraud monitoring systems
 - Batch transaction processing
 - Risk assessment APIs
@@ -265,7 +241,7 @@ def score_transaction_batch(transactions_df):
 
 ---
 
-## 🚨 **Performance Guarantees**
+## **Performance Guarantees**
 
 ### **Verified Results**
 - **✅ 284,807 transactions processed**
@@ -281,7 +257,7 @@ def score_transaction_batch(transactions_df):
 
 ---
 
-## 💡 **Next Steps**
+## **Next Steps**
 
 ### **Immediate Actions**
 1. **Train Model**: Run `python train.py` (5 minutes)
@@ -297,7 +273,7 @@ def score_transaction_batch(transactions_df):
 
 ---
 
-## 🎉 **Ready for Production**
+## **Ready for Production**
 
 This fraud detection system is now ready for:
 - ✅ **Real-world deployment** with 284K+ training examples
@@ -309,7 +285,7 @@ This fraud detection system is now ready for:
 
 ---
 
-## 📞 **Support & Documentation**
+## **Support & Documentation**
 
 - **Video Demo**: [YouTube Tutorial](https://youtu.be/JkbwKJJ0cQY)
 - **Dataset Source**: [Kaggle Credit Card Fraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
