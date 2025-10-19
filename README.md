@@ -1,6 +1,6 @@
 # Professional Fraud Detection System
 
-A production-ready fraud detection system using **real Kaggle Credit Card fraud data** with **284,807 actual transactions**. Features machine learning model training and professional web demo interface.
+A fraud detection model trained using **real Kaggle Credit Card fraud data** with **284,807 actual transactions**. Features machine learning model training and professional web demo interface.
 
 ## **Demo Video**
 **[Watch the Demo on YouTube](https://youtu.be/JkbwKJJ0cQY)**
